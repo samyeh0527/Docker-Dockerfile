@@ -23,7 +23,7 @@ RUN mkdir ~/opencv_build && cd ~/opencv_build && \
    		 -D OPENCV_GENERATE_PKGCONFIG=ON \
    		 -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib-3.4.3/modules \
    		 -D BUILD_EXAMPLES=ON ..\
-	&&\
+	&& \
 	make -j4 && make install
 
 #The image completely  	
