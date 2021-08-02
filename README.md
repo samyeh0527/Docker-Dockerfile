@@ -11,5 +11,6 @@ Mainly use python3 、Opencv、Python3-dev、Python-numpy
 
 
 
-Provide raspberry Pi image the Dockerfile didn't havd CMD["/bin/bash"] you should add "/bin/bash" in the docker build .
+Provide raspberry Pi image .but didn't havd CMD["/bin/bash"]
+you should add "/bin/bash" in the docker build .
 
