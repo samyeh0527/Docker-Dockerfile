@@ -19,7 +19,7 @@ you should add "/bin/bash" in the docker build .
 Add docker image of raspberry 32 (armv7l)
 
 
-1.Raspberrypi4-opencv3.4.3-python   kneron 520
+1.Raspberrypi4-opencv3.4.3-Auto   kneron 520
 
 
-2.Raspberrypi4-opencv3.4.3-python   kneron 720
+2.720Raspberrypi4-opencv3.4.3-Auto   kneron 720
