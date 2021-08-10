@@ -28,7 +28,7 @@ RUN mkdir ~/opencv_build && cd ~/opencv_build && \
 #download script for autoRun and uninstall unzip wget  
 #add 720 rules 
 RUN  mkdir Desktop && cd /Desktop && wget -O 720-Raspberrypi4-opencv-3.4.3-AutoRun.zip https://raw.githubusercontent.com/samyeh0527/Docker-Dockerfile/main/720-Raspberrypi4-opencv-3.4.3-AutoRun.zip && \
- 	unzip 720-Raspberrypi4-opencv-3.4.3-AutoRun.zip && rm -r -f 720-Raspberrypi4-opencv-3.4.3-AutoRun.zip &&  cd 20-Raspberrypi4-opencv-3.4.3-AutoRun/host_lib &&  mkdir build && cd build && \ 
+ 	unzip 720-Raspberrypi4-opencv-3.4.3-AutoRun.zip && rm -r -f 720-Raspberrypi4-opencv-3.4.3-AutoRun.zip &&  cd 720-Raspberrypi4-opencv-3.4.3-AutoRun/host_lib &&  mkdir build && cd build && \ 
   	cmake ..  &&  make -j4   && apt-get remove unzip wget && \ 
  	echo KERNEL=="ttyUSB*",ATTRS{idVendor}=="067b",ATTRS{idProduct}=="2303",MODE="0777",SYMLINK+="kneron_uart"  >> /etc/udev/rules.d/10-local.rules \
  	echo KERNEL=="ttyUSB*",ATTRS{idVendor}=="1a86",ATTRS{idProduct}=="7523",MODE="0777",SYMLINK+="kneron_pwr"  >> /etc/udev/rules.d/10-local.rules	\
