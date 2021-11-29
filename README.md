@@ -29,7 +29,11 @@ Add docker image of raspberry 32 (armv7l)
 docker push tpeswumedia/ri_pi_520_64bit:tagname
 
 latest 為初始版 僅有opencv 4.x  + python3.9
+
+
 v2  則是 加入YoLov3 and Kneron 520 (old version)
+
+
 v3  延續v2 做些調整修正刪除不需要的檔案
 
 
